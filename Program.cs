@@ -6,7 +6,13 @@ namespace Vetor1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] cidades = {"Leme","Poá","Jundiapeba","Pindamonhagaba","Cubatão"};
+
+            string cid = "Salvador,Curitiba,São Paulo";
+            
+
+            Console.WriteLine(cidades[1]);
+            Console.WriteLine(cid[1]);
         }
     }
 }
